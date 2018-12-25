@@ -1,0 +1,54 @@
+/* line 1, ../sass/components/general.sass */
+body { background-color: #EFEFEF; }
+
+/* line 1, ../sass/components/navbar.sass */
+.navbar { background-color: transparent; position: fixed; top: 0px; z-index: 1; }
+
+/* line 7, ../sass/components/navbar.sass */
+.navbar-brand { color: #FF3B3F; font-size: 32px; font-weight: 100; }
+
+/* line 1, ../sass/components/skills.sass */
+.content { position: absolute; margin-top: 74px; width: 100%; }
+
+/* line 6, ../sass/components/skills.sass */
+.skill-wrapper { width: 80%; margin: auto; position: relative; -webkit-column-width: 226px; column-width: 226px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+/* line 16, ../sass/components/skills.sass */
+.skill-category { vertical-align: top; max-width: 225px; margin-top: 25px; margin-left: 25px; display: inline-block; }
+/* line 22, ../sass/components/skills.sass */
+.skill-category hr { margin: 10px 0px; }
+
+/* line 25, ../sass/components/skills.sass */
+.skill-header { -webkit-transition: color 0.3s; transition: color 0.3s; text-align: center; }
+/* line 29, ../sass/components/skills.sass */
+.skill-header h3 { font-weight: 100; }
+/* line 31, ../sass/components/skills.sass */
+.skill-header:hover { color: #FF3B3F; }
+/* line 34, ../sass/components/skills.sass */
+.skill-header:hover ~ .skill-breakdowns .dot-text { color: #eF2B2F; }
+/* line 37, ../sass/components/skills.sass */
+.skill-header:hover ~ .skill-breakdowns .dot-wrapper .dot { background-color: rgba(164, 164, 255, 0.75); }
+/* line 39, ../sass/components/skills.sass */
+.skill-header:hover ~ .skill-breakdowns .dot-wrapper .dot-active { background-color: #6464ff; }
+
+/* line 46, ../sass/components/skills.sass */
+.dot-wrapper:hover .dot-text { color: #FF3B3F; }
+/* line 48, ../sass/components/skills.sass */
+.dot-wrapper:hover .dot { background-color: rgba(164, 164, 255, 0.75); }
+/* line 50, ../sass/components/skills.sass */
+.dot-wrapper:hover .dot-active { background-color: #6464ff; }
+
+/* line 53, ../sass/components/skills.sass */
+.dot-text { -webkit-transition: color 0.3s; transition: color 0.3s; }
+
+/* line 57, ../sass/components/skills.sass */
+.dots div { display: inline-block; margin: 0px; padding: 0px; }
+
+/* line 63, ../sass/components/skills.sass */
+.js-dots div { margin: 2px; }
+
+/* line 66, ../sass/components/skills.sass */
+.dot { vertical-align: middle; border: none; width: 30px; height: 14px; background-color: rgba(164, 164, 255, 0.5); border-radius: 25px; -webkit-transition: background 0.3s; transition: background 0.3s; }
+
+/* line 75, ../sass/components/skills.sass */
+.dot-active { background-color: rgba(100, 100, 255, 0.75); width: 30px; height: 15px; }
