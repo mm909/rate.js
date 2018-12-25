@@ -1,3 +1,19 @@
+.mainjumbo {
+  width: 90%;
+  margin:auto;
+  background-color: #EFEFEF;
+}
+
+.row-wrapper {
+  width: 90%;
+  margin:auto;
+}
+
+.skill-center {
+  margin:auto !important;
+}
+
+
 /* line 1, ../sass/components/general.sass */
 body { background-color: #EFEFEF; }
 
